@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/navbar.css';
 import { Link } from 'react-router-dom';
+
 /*
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,6 +13,7 @@ library.add(faHotel);
 const NavBar = () => (
   <div className="Navbar">
     <div className="logo">
+      <div className="hover" />
       <span className="header" />
     </div>
     <div>

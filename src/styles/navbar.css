@@ -1,34 +1,59 @@
 .header {
   padding: 20px 10px;
+  display: flex;
+	padding: 40px ;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	box-sizing: border-box;
+	z-index: 5;
+
 }
 
 .body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
+  background:black;
+	color: white;
+
 }
 
 .Navbar {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  height: 37px;
+  align-items: center;
   background-color: white;
   border-bottom: 20px solid 666;
   background-size: cover;
   background-position: center;
-  padding: 10px;
+  padding: 10px 10px;
+}
+
+  .hover {
+    background: rgb(33, 150, 138);
+    cursor: pointer;
 }
 
 .nav {
 
   margin: 0;
   padding: 0;
+
 }
 .logo {
   display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
+	transition: margin .125s
 }
 
 .item {
   display: inline-block;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+		height: 37px;
+		align-items: center;
+		padding: 0 10px;
 }
+
+
+
+
+
